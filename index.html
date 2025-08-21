@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+
+  <!-- Estilos separados -->
+  <link rel="stylesheet" href="css/infoComponent.css">
+  <link rel="stylesheet" href="css/trabajo.css">
+</head>
+<body>
+
+  <!-- Contenedores -->
+  <header id="info-container"></header>
+  <main>
+    <section id="proyectos-container"></section>
+  </main>
+
+  <!-- Scripts -->
+  <script src="js/infoComponent.js"></script>
+  <script src="js/trabajo.js"></script>
+
+  <script>
+    // Llamamos a las funciones
+    renderInfoComponent("info-container");
+    renderTrabajos("proyectos-container");
+  </script>
+</body>
+</html>
