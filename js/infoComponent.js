@@ -6,7 +6,7 @@ function renderInfoComponent(containerId) {
       <p>Bienvenido a mi portafolio. Aquí encontrarás información sobre mí, 
          mis habilidades y algunos de mis proyectos destacados en GitHub.</p>
   
-      <img src="img/ken.jpg" alt="Foto de perfil" class="perfil">
+      <img src="img/carson.jpeg" alt="Foto de perfil" class="perfil">
   
       <div class="botones">
         <button class="btn btn-primario">Contrátame</button>

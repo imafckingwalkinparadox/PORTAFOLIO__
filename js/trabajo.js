@@ -5,10 +5,10 @@ function renderTrabajos(containerId) {
   
     const proyectos = [
       { nombre: "Portafolio", link: "https://github.com/imafckingwalkinparadox/PORTAFOLIO__#" },
-      { nombre: "Proyecto 2", link: "https://github.com/tuusuario/proyecto2" },
-      { nombre: "Proyecto 3", link: "https://github.com/tuusuario/proyecto3" },
-      { nombre: "Proyecto 4", link: "https://github.com/tuusuario/proyecto4" },
-      { nombre: "Proyecto 5", link: "https://github.com/tuusuario/proyecto5" },
+      { nombre: "Todo-list", link: "https://github.com/imafckingwalkinparadox/Todo-list" },
+      { nombre: "Backend_Todo-list", link: "https://github.com/imafckingwalkinparadox/Backend_TODO-LIST" },
+      { nombre: "APP-Tareas", link: "https://github.com/imafckingwalkinparadox/APP-Tareas" },
+      { nombre: "Modulos_integradosPY", link: "https://github.com/imafckingwalkinparadox/Modulos-integrados-en-py" },
     ];
   
     proyectos.forEach(p => {
