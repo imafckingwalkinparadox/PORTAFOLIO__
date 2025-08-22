@@ -1,0 +1,38 @@
+#proyectos-container {
+    padding: 3rem 1rem;
+    text-align: center;
+    background: #0d0d0d;
+}
+
+#proyectos-container h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 0px 0px 10px #e6e6e6;
+}
+
+/* Cards de proyectos */
+.proyecto {
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a, #262626);
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin: 1rem auto;
+    width: 300px;
+    border: 1px solid #333;
+    box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.proyecto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.6);
+}
+.proyecto a {
+    text-decoration: none;
+    color: #e6e6e6;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.proyecto a:hover {
+    color: #ffffff;
+    text-shadow: 0px 0px 12px #ffffff;
+}
